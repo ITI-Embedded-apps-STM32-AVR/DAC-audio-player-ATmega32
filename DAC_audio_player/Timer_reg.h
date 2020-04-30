@@ -1,0 +1,5 @@
+#define  TCNT0           (*(volatile u8 *) 0x52)
+#define  TIMSK           (*(volatile u8 *) 0x59)
+#define  TCCR0           (*(volatile u8 *) 0x53)
+#define  TIFR            (*(volatile u8 *) 0x58)
+#define  SERG            (*(volatile u8 *) 0x5F)
